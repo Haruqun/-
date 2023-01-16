@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('dashboard');
 });
 
@@ -73,6 +74,9 @@ Route::group(['prefix' => 'charts'], function(){
     Route::get('morrisjs', function () { return view('pages.charts.morrisjs'); });
     Route::get('peity', function () { return view('pages.charts.peity'); });
     Route::get('sparkline', function () { return view('pages.charts.sparkline'); });
+=======
+    return view('welcome');
+>>>>>>> parent of 8e5309a (theme)
 });
 
 Route::group(['prefix' => 'tables'], function(){
