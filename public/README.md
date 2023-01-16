@@ -1,1 +1,0 @@
-# onsen.miniusa.jp
